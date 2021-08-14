@@ -15,7 +15,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-const PORT = process.env.BACKEND_SERVER_PORT || 5000;
+const PORT = process.env.PORT || 5000;
 conn(); //db connection
 
 app.use("/users", usersRoutes);
