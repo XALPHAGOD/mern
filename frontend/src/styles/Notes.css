@@ -1,16 +1,14 @@
-.App {
-  min-height: 100vh;
-  position: relative;
+*::-webkit-scrollbar {
+  display: none;
 }
 
-.page-title {
-  color: #ff0073;
+.notes-title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 2.5rem;
-  text-shadow: 0 0 5px white;
+  text-align: center;
 }
 
-.page-title-brdbtm {
+.notes-title-brdbtm {
   height: 2px;
   background: rgb(232, 50, 131);
   background: linear-gradient(
@@ -23,19 +21,19 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .page-title {
+  .notes-title {
     font-size: 2.25rem;
   }
 }
 
 @media only screen and (max-width: 768px) {
-  .page-title {
+  .notes-title {
     font-size: 2rem;
   }
 }
 
 @media only screen and (max-width: 576px) {
-  .page-title {
+  .notes-title {
     font-size: 1.7rem;
   }
 }
